@@ -60,9 +60,9 @@ nav a{
 /* header related style */ 
 .header{
     background-color:#FFF8F3 ;
-    background-image: url('../Images/header_bg.png'); 
+    background-image: url('../styles/images/header_bg.png'),url('../styles/images/developer.png'); 
     background-repeat: no-repeat; 
-    background-position: bottom right;
+    background-position: bottom right , top left;
 } 
 .banner{
     padding: 30px 30px 0 150px; 
@@ -194,8 +194,9 @@ footer{
    
 }  
 .social-links{
-    margin-right:25px ; 
-    
+
+    margin-right:25px; 
+
 }
 
 .contact input[type="text"], .contact input[type="email"],textarea{ 
@@ -204,7 +205,7 @@ footer{
     padding: 18px 35px; 
     color: #757575; 
     border-radius: 5px; 
-    background: #FFFFFF;  
+    background-color: antiquewhite;  
     border: 0; 
     width: 100%;
 
